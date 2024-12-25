@@ -1,0 +1,62 @@
+/* MIN-WIDTH 390px */
+
+@media screen and (min-width: 24.375rem) {
+  .container {
+    max-width: 26.5625rem;
+    padding: 0 1.88rem;
+  }
+
+  .container-second {
+    max-width: 26.565rem;
+  }
+
+  /* CONSULTATION */
+
+  .consultation-bcg {
+    background-size: 18rem;
+  }
+
+  .consultation-wrap {
+    padding-top: 10.88rem;
+  }
+
+  .consultation-text p {
+    max-width: 20rem;
+  }
+
+  /* TESTIMONIALS */
+
+  .slick-slide.testimonials-slider-item {
+    width: 18.5rem;
+  }
+
+  .testimonials-slider-prev {
+    left: 9%;
+  }
+
+  .testimonials-slider-next {
+    right: 9%;
+  }
+
+  /* TEAM */
+
+  .team-slider-prev {
+    left: 8%;
+  }
+
+  .team-slider-next {
+    right: 8%;
+  }
+}
+
+@media screen and (min-width: 26.25rem) {
+  /* TEAM */
+
+  .slick-slide.team-slider-item {
+    max-width: 22.8125rem;
+  }
+
+  .team-slider-prev {
+    left: 7%;
+  }
+}
