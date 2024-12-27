@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/common.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/styles-390.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles-768.css" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -350,23 +351,23 @@
               </div>
 
               <form action="#" method="POST" class="consultation-form">
-                <div class="consultation-form-group">
-                  <label for="name">Your name</label>
-                  <input type="text" id="name" name="name" required />
-                </div>
+                <div class="consultation-form-flex">
+                  <div class="consultation-form-group">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" name="name" required />
+                  </div>
 
-                <div class="consultation-form-group">
-                  <label for="email">Your email</label>
-                  <input type="email" id="email" name="email" required />
-                </div>
+                  <div class="consultation-form-group">
+                    <label for="email">Your email</label>
+                    <input type="email" id="email" name="email" required />
+                  </div>
 
-                <div class="consultation-form-group">
-                  <label for="phone">Telephone</label>
-                  <input type="tel" id="phone" name="phone" required />
-                </div>
+                  <div class="consultation-form-group">
+                    <label for="phone">Telephone</label>
+                    <input type="tel" id="phone" name="phone" required />
+                  </div>
 
-                <div class="consultation-submit-btn">
-                  <button type="submit">
+                  <button class="consultation-submit-btn" type="submit">
                     Book a Consultation
                     <img
                       src="./assets/img/consultation-arrow.svg"
@@ -542,23 +543,23 @@
               </div>
 
               <form action="#" method="POST" class="consultation-form">
-                <div class="consultation-form-group">
-                  <label for="name">Your name</label>
-                  <input type="text" id="name" name="name" required />
-                </div>
+                <div class="consultation-form-flex">
+                  <div class="consultation-form-group">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" name="name" required />
+                  </div>
 
-                <div class="consultation-form-group">
-                  <label for="email">Your email</label>
-                  <input type="email" id="email" name="email" required />
-                </div>
+                  <div class="consultation-form-group">
+                    <label for="email">Your email</label>
+                    <input type="email" id="email" name="email" required />
+                  </div>
 
-                <div class="consultation-form-group">
-                  <label for="phone">Telephone</label>
-                  <input type="tel" id="phone" name="phone" required />
-                </div>
+                  <div class="consultation-form-group">
+                    <label for="phone">Telephone</label>
+                    <input type="tel" id="phone" name="phone" required />
+                  </div>
 
-                <div class="consultation-submit-btn">
-                  <button type="submit">
+                  <button class="consultation-submit-btn" type="submit">
                     Book a Consultation
                     <img
                       src="./assets/img/consultation-arrow.svg"
@@ -578,73 +579,82 @@
         <div class="container">
           <p class="over-text">Team</p>
           <h2 class="title-h2">We - Legarithm</h2>
-          <p class="team-text">
-            We take a proactive approach to help you make informed decisions. Our team will help you register a company,
-            open a bank account, choose and get a license, and build a business from scratch. Moreover, we value your
-            time, so we created a platform where you can track the current status of work with all deadlines. Our main
-            goal is to provide excellent service and create strong, long-term relationships built on trust and mutually
-            beneficial cooperation
-          </p>
-          <div class="team-content-wrap">
-            <div class="team-content-list">
-              <p class="team-content-number">120+</p>
-              <p class="team-content-text">Registered foreign companies</p>
-            </div>
-            <div class="team-content-list">
-              <p class="team-content-number">100+</p>
-              <p class="team-content-text">Licenses obtained</p>
-            </div>
-            <div class="team-content-list">
-              <p class="team-content-number">80+</p>
-              <p class="team-content-text">Companies serviced</p>
-            </div>
-          </div>
-          <span class="team-content-line"></span>
+          <span class="team-line-horizontal"></span>
         </div>
-
-        <div class="container-second">
-          <div class="team-slider-wrap">
-            <div class="team-slider">
-              <!-- item1 -->
-              <div class="team-slider-item">
-                <img src="./assets/img/team-photo.png" alt="Photo" />
-                <p class="team-slider-item-over-text">LAWYER</p>
-                <h3>anna yehova</h3>
-                <p class="team-slider-item-text">
-                  We take a proactive approach to help you make informed decisions. Our team will help you register a
-                  company, open a bank account, choose and get a license, and build a business from scratch.
-                </p>
+        <div class="team-flex-list">
+          <!--  -->
+          <div class="team-flex-text-item">
+            <p class="team-text">
+              We take a proactive approach to help you make informed decisions. Our team will help you register a
+              company, open a bank account, choose and get a license, and build a business from scratch. Moreover, we
+              value your time, so we created a platform where you can track the current status of work with all
+              deadlines. Our main goal is to provide excellent service and create strong, long-term relationships built
+              on trust and mutually beneficial cooperation
+            </p>
+            <div class="team-content-wrap">
+              <div class="team-content-list">
+                <p class="team-content-number">120+</p>
+                <p class="team-content-text">Registered foreign companies</p>
               </div>
-              <!-- item2 -->
-              <div class="team-slider-item">
-                <img src="./assets/img/team-photo.png" alt="Photo" />
-                <p class="team-slider-item-over-text">LAWYER</p>
-                <h3>anna Armando</h3>
-                <p class="team-slider-item-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At architecto nulla aut necessitatibus quia
-                  itaque ad culpa quasi repudiandae dolores maiores perferendis eligendi vitae fuga vel voluptatum,
-                  neque quaerat facilis.
-                </p>
+              <div class="team-content-list">
+                <p class="team-content-number">100+</p>
+                <p class="team-content-text">Licenses obtained</p>
               </div>
-              <!-- item3 -->
-              <div class="team-slider-item">
-                <img src="./assets/img/team-photo.png" alt="Photo" />
-                <p class="team-slider-item-over-text">LAWYER</p>
-                <h3>anna Bella</h3>
-                <p class="team-slider-item-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod temporibus nulla, sequi voluptatem illum
-                  nisi. Error totam quibusdam dolor, laborum quaerat tenetur optio excepturi tempore esse nemo iure
-                  quisquam amet!
-                </p>
+              <div class="team-content-list">
+                <p class="team-content-number">80+</p>
+                <p class="team-content-text">Companies serviced</p>
               </div>
             </div>
-            <button type="button" class="team-slider-prev">
-              <img src="./assets/img/slider-arrow-left.svg" alt="Arrow left" />
-            </button>
-            <button type="button" class="team-slider-next">
-              <img src="./assets/img/slider-arrow-left.svg" alt="Arrow right" />
-            </button>
+            <span class="team-content-line"></span>
           </div>
+          <!--  -->
+          <div class="team-flex-slider-item">
+            <div class="container-team">
+              <div class="team-slider-wrap">
+                <div class="team-slider">
+                  <!-- item1 -->
+                  <div class="team-slider-item">
+                    <img src="./assets/img/team-photo.png" alt="Photo" />
+                    <p class="team-slider-item-over-text">LAWYER</p>
+                    <h3>anna yehova</h3>
+                    <p class="team-slider-item-text">
+                      We take a proactive approach to help you make informed decisions. Our team will help you register
+                      a company, open a bank account, choose and get a license, and build a business from scratch.
+                    </p>
+                  </div>
+                  <!-- item2 -->
+                  <div class="team-slider-item">
+                    <img src="./assets/img/team-photo.png" alt="Photo" />
+                    <p class="team-slider-item-over-text">LAWYER</p>
+                    <h3>anna Armando</h3>
+                    <p class="team-slider-item-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. At architecto nulla aut necessitatibus
+                      quia itaque ad culpa quasi repudiandae dolores maiores perferendis eligendi vitae fuga vel
+                      voluptatum, neque quaerat facilis.
+                    </p>
+                  </div>
+                  <!-- item3 -->
+                  <div class="team-slider-item">
+                    <img src="./assets/img/team-photo.png" alt="Photo" />
+                    <p class="team-slider-item-over-text">LAWYER</p>
+                    <h3>anna Bella</h3>
+                    <p class="team-slider-item-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod temporibus nulla, sequi voluptatem
+                      illum nisi. Error totam quibusdam dolor, laborum quaerat tenetur optio excepturi tempore esse nemo
+                      iure quisquam amet!
+                    </p>
+                  </div>
+                </div>
+                <button type="button" class="team-slider-prev">
+                  <img src="./assets/img/slider-arrow-left.svg" alt="Arrow left" />
+                </button>
+                <button type="button" class="team-slider-next">
+                  <img src="./assets/img/slider-arrow-left.svg" alt="Arrow right" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--  -->
         </div>
       </section>
 
@@ -707,22 +717,24 @@
       <div class="container-second">
         <div class="footer-bcg">
           <div class="footer-wrap">
-            <div class="footer-logo">
-              <a href="#"><img src="./assets/img/logo-footer.svg" alt="Logo" width="200" /></a>
-            </div>
-            <div class="footer-social-list">
-              <div class="footer-social-item">
-                <a href="#"><img src="./assets/img/telegram.svg" alt="Telegram" /></a>
+            <div class="footer-logo-nav-wrap">
+              <div class="footer-logo-social">
+                <div class="footer-logo">
+                  <a href="#"><img src="./assets/img/logo-footer.svg" alt="Logo" width="200" /></a>
+                </div>
+                <div class="footer-social-list">
+                  <div class="footer-social-item">
+                    <a href="#"><img src="./assets/img/telegram.svg" alt="Telegram" /></a>
+                  </div>
+                  <div class="footer-social-item">
+                    <a href="#"><img src="./assets/img/facebook.svg" alt="Facebook" /></a>
+                  </div>
+                  <div class="footer-social-item">
+                    <a href="#"><img src="./assets/img/linkedin.svg" alt="Linkedin" /></a>
+                  </div>
+                </div>
               </div>
-              <div class="footer-social-item">
-                <a href="#"><img src="./assets/img/facebook.svg" alt="Facebook" /></a>
-              </div>
-              <div class="footer-social-item">
-                <a href="#"><img src="./assets/img/linkedin.svg" alt="Linkedin" /></a>
-              </div>
-            </div>
-            <nav>
-              <div class="footer-nav-list">
+              <nav class="footer-nav">
                 <div class="footer-nav-item">
                   <a href="#">Jurisdictions</a>
                   <a href="#">Our Benefits</a>
@@ -731,8 +743,8 @@
                   <a href="#">Testimonials</a>
                   <a href="#">Team</a>
                 </div>
-              </div>
-            </nav>
+              </nav>
+            </div>
 
             <div class="footer-address-wrap">
               <div class="footer-address-item">

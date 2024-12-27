@@ -1,12 +1,12 @@
 /* MIN-WIDTH 390px */
 
-@media screen and (min-width: 24.375rem) {
+@media screen and (min-width: 390px) {
   .container {
     max-width: 26.5625rem;
     padding: 0 1.88rem;
   }
 
-  .container-second {
+  .container-second, .container-team {
     max-width: 26.565rem;
   }
 
@@ -49,7 +49,7 @@
   }
 }
 
-@media screen and (min-width: 26.25rem) {
+@media screen and (min-width: 420px) {
   /* TEAM */
 
   .slick-slide.team-slider-item {

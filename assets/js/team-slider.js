@@ -2,7 +2,7 @@
 $(".team-slider").slick({
     dots: false,
     infinite: true,
-    centerMode: true,
+    centerMode: false,
     variableWidth: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -21,7 +21,7 @@ $(".team-slider").slick({
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          centerMode: true,
+          centerMode: false,
         },
       },
       {

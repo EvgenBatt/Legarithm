@@ -1,0 +1,181 @@
+/* MIN-WIDTH 768px */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 48rem;
+    padding: 0 2.6rem;
+  }
+
+  .container-second {
+    max-width: 48rem;
+  }
+
+  /* HEADER Styles */
+
+  .header {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  /* PROPOSAL */
+
+  .proposal-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  /* OFFER */
+
+  .offer-list {
+    justify-content: space-between;
+  }
+
+  .offer-item {
+    max-width: 20.5rem;
+  }
+
+  .show-more {
+    width: 50%;
+  }
+
+  /* CONSULTATION */
+
+  .consultation-bcg {
+    background-size: 14rem;
+  }
+
+  .consultation-wrap {
+    padding-top: 4.75rem;
+    margin: 0 2.6rem;
+  }
+
+  .consultation-text {
+    max-width: 41.625rem;
+    margin: 0;
+  }
+
+  .consultation-text p {
+    max-width: 30rem;
+  }
+
+  .consultation-form-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  .consultation-form-group,
+  .consultation-submit-btn {
+    width: 48%;
+  }
+
+  /* ADVANTAGES */
+
+  .advantages-first-list,
+  .advantages-second-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+  }
+
+  .advantages-first-item,
+  .advantages-second-item {
+    width: 33%;
+  }
+
+  .advantages-second-item.advantages-second-item-img {
+    background-color: transparent;
+  }
+
+  /* TESTIMONIALS */
+  .testimonials-slider-prev {
+    left: 28%;
+  }
+
+  .testimonials-slider-next {
+    right: 28%;
+  }
+
+  /* TEAM */
+
+  .team-line-horizontal {
+    display: inline-block;
+    width: 100%;
+    height: 0.0625rem;
+    background-color: rgba(27, 50, 95, 0.5);
+    margin-bottom: 1.25rem;
+    opacity: 0.5;
+  }
+
+  .team-flex-list {
+    max-width: 48rem;
+    padding: 0 2.6rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .container-team {
+    max-width: 24rem;
+  }
+
+  .team-content-line {
+    display: none;
+  }
+
+  .team-slider-wrap {
+    width: 82%;
+    margin-left: 5rem;
+  }
+
+  .slick-slide.team-slider-item {
+    max-width: 18rem;
+  }
+
+  .team-slider-prev {
+    left: 0;
+  }
+
+  /* FOOTER */
+
+  .footer-bcg {
+    background-size: 14rem;
+  }
+
+  .footer-wrap {
+    margin: 0 2.6rem;
+    padding-top: 4.75rem;
+  }
+
+  .footer-logo-nav-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4rem;
+    margin-bottom: 5rem;
+  }
+
+  .footer-social-list {
+    margin: 0;
+  }
+
+  .footer-nav {
+    gap: 3rem;
+    margin: 0;
+  }
+
+  .footer-address-wrap {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .footer-address-item {
+    flex: 0 0 48%;
+  }
+}
