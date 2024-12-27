@@ -405,7 +405,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 47.99rem) {
+@media screen and (max-width: 47.95rem) {
   .consultation-form-flex {
     max-width: 20.625rem;
   }
