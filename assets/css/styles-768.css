@@ -6,7 +6,7 @@
     padding: 0 2.6rem;
   }
 
-  .container-second {
+  .container-offer {
     max-width: 48rem;
   }
 
@@ -44,11 +44,7 @@
 
   .consultation-bcg {
     background-size: 14rem;
-  }
-
-  .consultation-wrap {
     padding-top: 4.75rem;
-    margin: 0 2.6rem;
   }
 
   .consultation-text {
@@ -79,6 +75,7 @@
   .advantages-second-list {
     display: flex;
     flex-wrap: nowrap;
+    align-items: stretch;
     gap: 0.5rem;
   }
 
@@ -87,11 +84,8 @@
     width: 33%;
   }
 
-  .advantages-second-item.advantages-second-item-img {
-    background-color: transparent;
-  }
-
   /* TESTIMONIALS */
+
   .testimonials-slider-prev {
     left: 28%;
   }
@@ -106,7 +100,7 @@
     display: inline-block;
     width: 100%;
     height: 0.0625rem;
-    background-color: rgba(27, 50, 95, 0.5);
+    background-color: #1b325f;
     margin-bottom: 1.25rem;
     opacity: 0.5;
   }
@@ -137,18 +131,18 @@
     max-width: 18rem;
   }
 
+  .team-slider-next {
+    right: 4%;
+  }
+
   .team-slider-prev {
-    left: 0;
+    left: 4%;
   }
 
   /* FOOTER */
 
   .footer-bcg {
     background-size: 14rem;
-  }
-
-  .footer-wrap {
-    margin: 0 2.6rem;
     padding-top: 4.75rem;
   }
 

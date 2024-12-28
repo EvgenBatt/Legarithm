@@ -6,7 +6,7 @@
     padding: 0 1.88rem;
   }
 
-  .container-second, .container-team {
+  .container-offer {
     max-width: 26.565rem;
   }
 
@@ -14,9 +14,6 @@
 
   .consultation-bcg {
     background-size: 18rem;
-  }
-
-  .consultation-wrap {
     padding-top: 10.88rem;
   }
 
@@ -39,13 +36,8 @@
   }
 
   /* TEAM */
-
-  .team-slider-prev {
-    left: 8%;
-  }
-
-  .team-slider-next {
-    right: 8%;
+  .slick-slide.team-slider-item {
+    max-width: 21rem;
   }
 }
 
@@ -53,10 +45,6 @@
   /* TEAM */
 
   .slick-slide.team-slider-item {
-    max-width: 22.8125rem;
-  }
-
-  .team-slider-prev {
-    left: 7%;
+    max-width: 23rem;
   }
 }

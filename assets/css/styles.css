@@ -17,12 +17,16 @@
   margin: 0 auto;
 }
 
-.container-second, .container-team {
+.container-offer {
   min-width: 20rem;
   margin: 0 auto;
 }
 
 /* OVERALL Styles */
+
+.show-more.desktop-btn {
+  display: none;
+}
 
 .over-text {
   color: #1b325f;
@@ -68,7 +72,7 @@
   width: 9.25rem;
 }
 
-@media screen and (max-width: 63.9375rem) {
+@media screen and (max-width: 1023px) {
   .nav-menu {
     visibility: hidden;
     transition: opacity 250ms linear;
@@ -108,7 +112,7 @@
   font-size: 0.75rem;
   line-height: normal;
   text-transform: uppercase;
-  color: #000;
+  color: #0d1930;
 }
 
 /* Mobile Menu Button */
@@ -303,15 +307,6 @@
   text-transform: uppercase;
 }
 
-.offer-companies-number {
-  color: #000;
-  font-size: 1.75rem;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  text-transform: uppercase;
-}
-
 .offer-companies-text {
   color: #0d1930;
   font-size: 0.875rem;
@@ -325,7 +320,7 @@
   display: inline-block;
   width: 100%;
   height: 0.0625rem;
-  background-color: rgba(27, 50, 95, 0.5);
+  background-color: #1b325f;
   margin-bottom: 1.25rem;
   opacity: 0.5;
 }
@@ -362,12 +357,8 @@
   background-repeat: no-repeat;
   background-size: 15rem;
   background-position: top right;
-}
-
-.consultation-wrap {
   padding-top: 8.88rem;
   padding-bottom: 3.75rem;
-  margin: 0 0.88rem;
 }
 
 .consultation-text {
@@ -405,7 +396,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 47.95rem) {
+@media screen and (max-width: 767px) {
   .consultation-form-flex {
     max-width: 20.625rem;
   }
@@ -503,6 +494,11 @@
   padding: 1.56rem;
 }
 
+.advantages-second-item.advantages-second-item-img {
+  background-color: transparent;
+  padding: 0;
+}
+
 .advantages-first-item h3,
 .advantages-second-item h3 {
   color: #000;
@@ -529,12 +525,12 @@
 /* TESTIMONIALS */
 
 .testimonials {
-  margin-bottom: 3.13rem;
+  padding-bottom: 3.13rem;
 }
 
 /* testimonials slider */
 
-.testimonials-slider-wrap {
+.testimonials-slider-container {
   position: relative;
   width: 100%;
   margin: 0 auto;
@@ -557,6 +553,10 @@
   background-color: #f5f5f5;
   width: 16.25rem;
   height: 16.25rem;
+}
+
+.testimonials-slider-item.slick-current {
+  margin-top: 1.5rem;
 }
 
 .testimonials-slider-star {
@@ -603,6 +603,10 @@
 
 .team {
   padding-bottom: 3.12rem;
+}
+
+.container-team {
+  margin: 0 0.9375rem;
 }
 
 .team-text {
@@ -655,7 +659,7 @@
   display: inline-block;
   width: 100%;
   height: 0.0625rem;
-  background-color: rgba(27, 50, 95, 0.5);
+  background-color: #1b325f;
   margin-bottom: 1.25rem;
   opacity: 0.5;
 }
@@ -679,7 +683,11 @@
 
 .slick-slide.team-slider-item {
   border-radius: 0.625rem;
-  max-width: 18.25rem;
+  max-width: 18rem;
+}
+
+.team-slider > .slick-list {
+  padding: 0;
 }
 
 .team-slider-item img {
@@ -732,19 +740,19 @@
 
 .team-slider-prev {
   top: 30%;
-  left: 5%;
+  left: 0;
 }
 
 .team-slider-next {
   top: 30%;
-  right: 5%;
+  right: 0;
   transform: rotate(180deg);
 }
 
 /* QUESTIONS */
 
 .questions {
-  margin-bottom: 4.37rem;
+  padding-bottom: 4.37rem;
 }
 
 .questions-list {
@@ -753,6 +761,10 @@
   justify-content: center;
   align-items: center;
   gap: 1.25rem;
+}
+
+.questions-item {
+  width: 100%;
 }
 
 .questions-item h3 {
@@ -778,7 +790,7 @@
   display: inline-block;
   width: 100%;
   height: 0.0625rem;
-  background-color: rgba(27, 50, 95, 0.5);
+  background-color: #1b325f;
   opacity: 0.5;
 }
 
@@ -794,12 +806,8 @@
   background-repeat: no-repeat;
   background-size: 15rem;
   background-position: top right;
-}
-
-.footer-wrap {
   padding-top: 7.69rem;
   padding-bottom: 1.25rem;
-  margin: 0 0.88rem;
 }
 
 .footer-logo {
@@ -851,6 +859,13 @@
   margin-bottom: 1.87rem;
 }
 
+.footer-address-item {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
 .footer-address-country {
   color: #fff;
   text-align: center;
@@ -881,7 +896,6 @@
 
 .footer-address-mail {
   color: #fff;
-  text-align: center;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
@@ -932,21 +946,17 @@
 
 /* MIN-WIDTH 375px */
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 23.4375rem) {
   .container {
     max-width: 24.374rem;
     padding: 0 1.5625rem;
   }
 
-  .container-second, .container-team {
+  .container-second {
     max-width: 24.374rem;
   }
 
   /* CONSULTATION */
-
-  .consultation-wrap {
-    margin: 0 1.5625rem;
-  }
 
   .consultation-text {
     max-width: 20.625rem;
@@ -954,21 +964,11 @@
 
   /* TEAM */
 
-  .slick-slide.team-slider-item {
-    max-width: 20.625rem;
-  }
-
-  .team-slider-prev {
-    left: 6%;
-  }
-
-  .team-slider-next {
-    right: 6%;
-  }
-
-  /* FOOTER */
-
-  .footer-wrap {
+  .container-team {
     margin: 0 1.5625rem;
+  }
+
+  .slick-slide.team-slider-item {
+    max-width: 20rem;
   }
 }

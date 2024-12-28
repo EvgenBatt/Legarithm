@@ -1,24 +1,39 @@
 document.addEventListener("DOMContentLoaded", () => {
   const items = document.querySelectorAll(".offer-item");
-  const showMoreButton = document.querySelector(".show-more");
-  let itemsToShow = 6; // Изначально показываем 6 элементов
+  const desktopButton = document.querySelector(".desktop-btn");
+  const mobileButton = document.querySelector(".mobile-btn");
+  let itemsToShow = 6;
 
-  // Показываем первые 6 элементов
-  items.forEach((item, index) => {
-    if (index < itemsToShow) {
-      item.classList.add("visible");
-    }
-  });
-
-  // Обработчик клика на кнопку "Show more"
-  showMoreButton.addEventListener("click", () => {
-    items.forEach((item) => {
-      item.classList.add("visible"); // Добавляем класс для показа элементов
+  const updateVisibleItems = () => {
+    items.forEach((item, index) => {
+      if (index < itemsToShow) {
+        item.classList.add("visible");
+      }
     });
+  };
 
-    // Скрываем кнопку после показа всех элементов
-    setTimeout(() => {
-      showMoreButton.style.display = "none";
-    }, 300); // Ждем окончания анимации
-  });
+  const hideButtonIfAllVisible = () => {
+    const totalItems = items.length;
+    if (itemsToShow >= totalItems) {
+      if (desktopButton) desktopButton.style.display = "none";
+      if (mobileButton) mobileButton.style.display = "none";
+    }
+  };
+
+  updateVisibleItems();
+  hideButtonIfAllVisible();
+
+  const showMoreHandler = () => {
+    itemsToShow = items.length;
+    updateVisibleItems();
+    hideButtonIfAllVisible();
+  };
+
+  if (desktopButton) {
+    desktopButton.addEventListener("click", showMoreHandler);
+  }
+
+  if (mobileButton) {
+    mobileButton.addEventListener("click", showMoreHandler);
+  }
 });

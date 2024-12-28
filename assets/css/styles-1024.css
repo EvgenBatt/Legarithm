@@ -1,0 +1,219 @@
+/* MIN-WIDTH 1024px */
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 64rem;
+    padding: 0 3.5rem;
+  }
+
+  .container-offer {
+    max-width: 64rem;
+  }
+
+  /* OVERALL Styles */
+
+  .show-more.mobile-btn {
+    display: none;
+  }
+
+  /* HEADER Styles */
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7.75rem;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .mob-menu-btn {
+    display: none;
+  }
+
+  .header-contact-btn {
+    border-radius: 0.625rem;
+    background: #284b8f;
+    padding: 0.5rem 1.2rem;
+    color: #fff;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  /* PROPOSAL */
+
+  .proposal-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 2.19rem;
+    column-gap: 6.19rem;
+  }
+
+  /* OFFER */
+
+  .offer-bcg {
+    background-image: url(../img/offer-bcg.png);
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    background-position: top 65% left -85%;
+  }
+
+  .offer-content-flex {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .show-more.desktop-btn {
+    display: block;
+    margin: 0;
+  }
+
+  .offer-text-wrap {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/offer-line-vertical.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+    flex: 1 1 87%;
+    margin-top: -0.5rem;
+  }
+
+  .offer-text {
+    margin-top: 1.25rem;
+  }
+
+  .offer-list {
+    justify-content: flex-end;
+    margin: 0;
+    background-image: url(../img/offer-line-vertical.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50.5%;
+    margin-top: -0.5rem;
+  }
+
+  .offer-item {
+    max-width: 19.5rem;
+  }
+
+  .offer-item:nth-child(1),
+  .offer-item:nth-child(2) {
+    margin-top: 1.25rem;
+  }
+
+  .offer-item:nth-child(2n + 4) {
+    margin-top: -5rem;
+  }
+
+  .offer-item:nth-child(2) .offer-item-line {
+    display: none;
+  }
+
+  .offer-line-horizontal {
+    display: inline-block;
+    width: 100%;
+    height: 0.0625rem;
+    background-color: #1b325f;
+    opacity: 0.5;
+  }
+
+  .show-more {
+    width: 10rem;
+  }
+
+  .show-more.desktop-btn {
+    position: fixed;
+    display: none;
+    z-index: 10;
+  }
+
+  /* ADVANTAGES */
+
+  .advantages-first-item,
+  .advantages-second-item {
+    min-height: 14.5rem;
+  }
+
+  /* TESTIMONIALS */
+
+  .testimonials-slider-container {
+    padding: 0 5.5rem;
+  }
+
+  .slick-slide.testimonials-slider-item {
+    width: 19rem;
+  }
+
+  .testimonials-slider-prev {
+    left: 6%;
+  }
+
+  .testimonials-slider-next {
+    right: 6%;
+  }
+
+  /* TEAM */
+
+  .team-flex-list {
+    max-width: 64rem;
+    padding: 0 3.5rem;
+    margin: 0;
+  }
+
+  .team-flex-text-item {
+    max-width: 30%;
+  }
+
+  .team-slider-wrap {
+    width: 100%;
+    margin: 0;
+  }
+
+  .slick-slide.team-slider-item {
+  }
+
+  .team-slider-item.slick-current.slick-current {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  /* FOOTER */
+
+  .footer-bcg {
+    background-size: 15rem;
+  }
+
+  .footer-logo-nav-wrap {
+    gap: 7rem;
+    margin-bottom: 5rem;
+  }
+
+  .footer-nav {
+    gap: 5rem;
+  }
+
+  .footer-nav-item {
+    gap: 1.5rem;
+  }
+
+  .footer-address-wrap {
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .footer-address-item {
+    flex: 0 0 45%;
+  }
+}
