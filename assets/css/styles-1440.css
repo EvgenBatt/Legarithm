@@ -92,14 +92,14 @@
 
   .offer-list::before {
     top: 0.4375rem;
-    left: 2.6rem;
-    width: 0.125rem;
+    left: 2.65rem;
+    width: 0.1rem;
   }
 
   .offer-list::after {
     top: 0.4375rem;
-    left: 29.6rem;
-    width: 0.125rem;
+    left: 29.65rem;
+    width: 0.1rem;
   }
 
   .offer-line-horizontal::before {
