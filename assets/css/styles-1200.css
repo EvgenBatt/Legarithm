@@ -1,7 +1,8 @@
 /* MIN-WIDTH 1200px */
 
 @media screen and (min-width: 1200px) {
-  .container {
+  .container,
+  .testimonials-slider-container {
     max-width: 75rem;
     padding: 0 3.5rem;
   }
@@ -58,16 +59,30 @@
     background-position: top 78% left -85%;
   }
 
-  .offer-text-wrap {
-    flex: 1 1 115%;
-  }
-
   .offer-list {
     justify-content: flex-end;
     background-position: 51%;
     row-gap: 1.5rem;
     column-gap: 2.5rem;
   }
+
+  .offer-list::before {
+    left: 5.9rem;
+  }
+
+  .offer-list::after {
+    left: 27.8rem;
+  }
+
+  .offer-line-horizontal::before {
+    top: -0.25rem;
+    left: 25.08rem;
+}
+
+.offer-line-horizontal::after {
+  top: -0.25rem;
+  left: 46.99rem;
+}
 
   /* CONSULTATION */
 
@@ -136,10 +151,6 @@
 
   .testimonials {
     padding-bottom: 5rem;
-  }
-
-  .testimonials-slider-container {
-    padding: 0 3.5rem;
   }
 
   .slick-slide.testimonials-slider-item {

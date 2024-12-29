@@ -3,7 +3,6 @@ $(".team-slider").slick({
   dots: false,
   infinite: true,
   centerMode: true,
-  centerPadding: 0,
   variableWidth: true,
   slidesToShow: 1,
   slidesToScroll: 1,

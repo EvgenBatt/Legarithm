@@ -224,6 +224,11 @@
   margin-bottom: 1.88rem;
 }
 
+.offer-list-flex {
+  display: flex;
+  flex-direction: column;
+}
+
 .offer-list {
   display: flex;
   flex-wrap: wrap;
@@ -532,7 +537,6 @@
 
 .testimonials-slider-container {
   position: relative;
-  width: 100%;
   margin: 0 auto;
 }
 
@@ -551,7 +555,7 @@
   padding: 1.25rem 1rem;
   border-radius: 0.625rem;
   background-color: #f5f5f5;
-  width: 16.25rem;
+  width: 18.25rem;
   height: 16.25rem;
 }
 
@@ -947,7 +951,8 @@
 /* MIN-WIDTH 375px */
 
 @media screen and (min-width: 23.4375rem) {
-  .container {
+  .container,
+  .testimonials-slider-container {
     max-width: 24.374rem;
     padding: 0 1.5625rem;
   }

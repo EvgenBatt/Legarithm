@@ -1,7 +1,7 @@
 /* MIN-WIDTH 768px */
 
 @media screen and (min-width: 768px) {
-  .container {
+  .container,.testimonials-slider-container {
     max-width: 48rem;
     padding: 0 2.6rem;
   }
@@ -85,13 +85,12 @@
   }
 
   /* TESTIMONIALS */
-
   .testimonials-slider-prev {
-    left: 28%;
+    left: 27%;
   }
 
   .testimonials-slider-next {
-    right: 28%;
+    right: 27%;
   }
 
   /* TEAM */
@@ -107,10 +106,10 @@
 
   .team-flex-list {
     max-width: 48rem;
-    padding: 0 2.6rem;
+    padding: 0;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 0 auto;
   }
 
@@ -118,25 +117,29 @@
     max-width: 24rem;
   }
 
+  .team-content-text {
+    text-align: left;
+  }
+
   .team-content-line {
     display: none;
   }
 
   .team-slider-wrap {
-    width: 82%;
-    margin-left: 5rem;
+    width: 20rem;
+    margin-left: 3.5rem;
   }
 
   .slick-slide.team-slider-item {
-    max-width: 18rem;
+    max-width: 20rem;
   }
 
   .team-slider-next {
-    right: 4%;
+    right: 0;
   }
 
   .team-slider-prev {
-    left: 4%;
+    left: 0;
   }
 
   /* FOOTER */
