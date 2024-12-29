@@ -227,8 +227,13 @@
   .slick-slide.testimonials-slider-item {
     width: 28.25rem;
     height: 17.875rem;
+    padding: 2.5rem 2.56rem;
     margin-right: -1.625rem;
   }
+
+  .testimonials-slider-star {
+    margin-bottom: 1.56rem;
+}
 
   .testimonials-slider-prev {
     left: 8%;
