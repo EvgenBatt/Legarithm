@@ -1,0 +1,19 @@
+/* MIN-WIDTH 1024px */
+
+@media screen and (min-width: 1024px) {
+  .page-hero {
+    height: 38.0625rem;
+    margin-bottom: 0;
+  }
+
+  .page-hero-bcg {
+    background-size: 100%;
+    background-position: top right;
+    height: 38.0625rem;
+  }
+
+  .page-hero h1 {
+    padding-top: 7.56rem;
+  }
+  
+}
