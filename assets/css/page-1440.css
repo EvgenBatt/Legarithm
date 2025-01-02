@@ -50,21 +50,10 @@
     line-height: normal;
   }
 
-  .page-license-deadline-wrap-title {
-    margin-bottom: 2.5rem;
-  }
-
   /* OFFER */
 
   .page-offer-list .slick-slide {
-    margin: 0 0.87rem;
-    box-sizing: border-box;
-    transform: scale(1);
-    opacity: 0.3;
-  }
-
-  .page-offer-list .slick-center {
-    opacity: 1;
+    margin: 0 1.25rem;
   }
 
   .offer-item-content {

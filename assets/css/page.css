@@ -170,8 +170,12 @@
 .page-license-one-item {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.75rem;
+}
+
+.page-license-one-item img {
+  padding-top: 0.3125rem;
 }
 
 .page-license-one-item p {
@@ -324,6 +328,11 @@
 
 .page-offer-item:nth-child(1) .page-offer-item-line {
   display: none;
+}
+
+.page-offer-slider-prev,
+.page-offer-slider-next {
+    display: none;
 }
 
 .page-show-more {

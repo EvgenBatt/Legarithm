@@ -58,6 +58,24 @@
     margin-right: 0;
   }
 
+  .page-license-deadline-wrap-title {
+    height: 2.5rem;
+  }
+
+  .page-license-one-list {
+    justify-content: flex-start;
+  }
+
+  .page-license-deadline-btn {
+    max-width: 12.5rem;
+    margin: 0;
+    margin-bottom: 0.37rem;
+  }
+
+  .page-license-deadline-btn p {
+    line-height: normal;
+  }
+
   /* OFFER */
 
   .page-offer {

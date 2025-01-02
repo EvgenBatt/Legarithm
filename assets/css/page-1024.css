@@ -44,16 +44,9 @@
   }
 
   .page-offer-list .slick-slide {
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    opacity: 0.5;
-    transform: scale(0.8);
+    margin: 0 0.87rem;
   }
-
-  .page-offer-list .slick-center {
-    opacity: 1;
-    transform: scale(1);
-  }
-
+  
   .page-offer-list {
     margin-bottom: 0;
   }
@@ -71,11 +64,13 @@
   }
 
   .page-offer-slider-prev {
+    display: block;
     top: -14%;
     left: 85%;
   }
 
   .page-offer-slider-next {
+    display: block;
     top: -14%;
     right: 0;
     transform: rotate(180deg);
