@@ -201,6 +201,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  height: 2.5rem;
   margin-bottom: 1.25rem;
 }
 
@@ -332,7 +333,7 @@
 
 .page-offer-slider-prev,
 .page-offer-slider-next {
-    display: none;
+  display: none;
 }
 
 .page-show-more {
@@ -349,4 +350,348 @@
   line-height: normal;
   text-transform: uppercase;
   margin: 0 auto;
+}
+
+/* MIN-WIDTH 768px */
+
+@media screen and (min-width: 768px) {
+  /* HERO */
+
+  .page-hero {
+    height: 33.5625rem;
+  }
+
+  .page-hero-bcg {
+    background-size: contain;
+    background-position: top right;
+  }
+
+  .page-hero h1 {
+    text-align: left;
+    padding-top: 14.19rem;
+  }
+
+  .page-hero p {
+    text-align: left;
+  }
+
+  .hero-btn {
+    margin: 0;
+  }
+
+  /* ADVANTAGES */
+
+  .page-advantages-list {
+    align-items: stretch;
+  }
+
+  .page-advantages-list > :last-child {
+    margin-right: 50%;
+  }
+
+  .page-advantages-item {
+    max-width: 20.625rem;
+  }
+
+  /* STEP1-LICENSE */
+
+  .page-license-one-bcg {
+    max-width: 48rem;
+    margin: 0 auto;
+  }
+
+  .page-license-one-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
+  .page-license-one-wrap {
+    max-width: 20.625rem;
+  }
+
+  .page-license-one-wrap:last-child {
+    justify-self: flex-start;
+  }
+
+  .page-license-deadline-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .page-license-deadline-flex-step2 > :last-child {
+    margin-right: 50%;
+  }
+
+  /* OFFER */
+
+  .page-offer-list {
+    justify-content: space-between;
+  }
+
+  .page-offer-item {
+    max-width: 20.5rem;
+  }
+
+  .page-offer-item:nth-child(2) .page-offer-item-line {
+    display: none;
+  }
+
+  .page-show-more {
+    width: 50%;
+  }
+}
+
+/* MIN-WIDTH 1024px */
+
+@media screen and (min-width: 1024px) {
+  .page-hero {
+    height: 27.0625rem;
+    margin-bottom: 0;
+  }
+
+  .page-hero-bcg {
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 3rem;
+  }
+
+  .page-hero h1 {
+    padding-top: 7.56rem;
+  }
+
+  .page-hero p {
+    max-width: 30rem;
+  }
+
+  /* ADVANTAGES */
+
+  .page-advantages-list > :last-child {
+    margin-right: 38%;
+  }
+
+  /* STEP1-LICENSE */
+
+  .page-license-one-bcg {
+    max-width: 64rem;
+  }
+
+  .page-license-deadline-flex-step2 > :last-child {
+    margin-right: 38%;
+  }
+
+  /* OFFER */
+
+  .page-offer-content-flex {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .page-offer-list .slick-slide {
+    margin: 0 0.87rem;
+  }
+
+  .page-offer-list {
+    margin-bottom: 0;
+  }
+
+  .page-offer-item .page-offer-item-line {
+    display: none;
+  }
+
+  .page-offer-slider-prev,
+  .page-offer-slider-next {
+    position: absolute;
+    border: none;
+    background-color: inherit;
+    width: 1.25rem;
+  }
+
+  .page-offer-slider-prev {
+    display: block;
+    top: -14%;
+    left: 85%;
+  }
+
+  .page-offer-slider-next {
+    display: block;
+    top: -14%;
+    right: 0;
+    transform: rotate(180deg);
+  }
+}
+
+/* MIN-WIDTH 1200px */
+
+@media screen and (min-width: 1200px) {
+  .page-hero {
+    height: 31.6rem;
+    margin-bottom: 0;
+  }
+
+  .page-hero-bcg {
+    padding-bottom: 7rem;
+  }
+
+  /* ADVANTAGES */
+
+  .page-advantages-list {
+    justify-content: flex-start;
+    gap: 1.25rem;
+  }
+
+  .page-advantages-list > :last-child {
+    margin-right: 33%;
+  }
+
+  .page-advantages-item {
+    max-width: 21.625rem;
+    height: 12.375rem;
+  }
+
+  /* STEP1-LICENSE */
+
+  .page-license-one-bcg {
+    max-width: 68rem;
+    padding: 2.5rem;
+  }
+
+  .page-license-one-bcg > .container {
+    padding: 0;
+  }
+
+  .page-license-one-flex {
+    gap: 2.5rem;
+  }
+
+  .page-license-one-wrap {
+    max-width: 48%;
+  }
+
+  .page-license-deadline-flex {
+    justify-content: flex-start;
+    gap: 3rem;
+  }
+
+  .page-license-deadline-wrap {
+    max-width: 30%;
+  }
+
+  .page-license-deadline-flex-step2 > :last-child {
+    margin-right: 0;
+  }
+
+  .page-license-one-list {
+    justify-content: flex-start;
+  }
+
+  .page-license-deadline-btn {
+    max-width: 12.5rem;
+    margin: 0;
+    margin-bottom: 0.37rem;
+  }
+
+  .page-license-deadline-btn p {
+    line-height: normal;
+  }
+
+  /* OFFER */
+
+  .page-offer {
+    padding-bottom: 3.75rem;
+  }
+
+  .page-offer-item {
+    max-width: 24.125rem;
+  }
+}
+
+/* MIN-WIDTH 1440px */
+
+@media screen and (min-width: 1440px) {
+  .page-hero {
+    height: 37.5625rem;
+    margin-bottom: 0;
+  }
+
+  .page-hero-bcg {
+    padding-bottom: 13rem;
+  }
+
+  /* ADVANTAGES */
+
+  .page-advantages-title {
+    max-width: 60rem;
+  }
+
+  .page-advantages-item {
+    max-width: 25rem;
+    padding: 1.56rem 1.9rem;
+  }
+
+  .page-advantages-list > :last-child {
+    margin-right: 0;
+  }
+
+  /* STEP1-LICENSE */
+
+  .page-license-one-bcg {
+    max-width: 77.5rem;
+  }
+
+  .page-license-one-title {
+    font-size: 1.75rem;
+    line-height: 2.625rem; /* 150% */
+    margin-bottom: 1.87rem;
+  }
+
+  .page-license-one-flex {
+    margin-bottom: 2.5rem;
+  }
+
+  .page-license-one-wrap {
+    padding: 1.88rem;
+  }
+
+  .page-license-one-wrap-title {
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  /* OFFER */
+
+  .page-offer-list .slick-slide {
+    margin: 0 1.25rem;
+  }
+
+  .offer-item-content {
+    gap: 1.25rem;
+    margin-bottom: 0.87rem;
+  }
+
+  .offer-item-content-icon {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+
+  .offer-item-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .offer-item-content-arrow {
+    width: 1.375rem;
+    height: 1.375rem;
+  }
+
+  .offer-item-text {
+    font-weight: 600;
+  }
+
+  .page-offer-slider-prev {
+    top: -20%;
+  }
+
+  .page-offer-slider-next {
+    top: -20%;
+  }
 }
