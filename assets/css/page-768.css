@@ -8,9 +8,8 @@
   }
 
   .page-hero-bcg {
-    background-size: cover;
+    background-size: contain;
     background-position: top right;
-    max-height: 22.0625rem;
   }
 
   .page-hero h1 {
@@ -69,4 +68,22 @@
   .page-license-deadline-flex-step2 > :last-child {
     margin-right: 50%;
   }
+
+    /* OFFER */
+
+    .page-offer-list {
+      justify-content: space-between;
+    }
+  
+    .page-offer-item {
+      max-width: 20.5rem;
+    }
+
+    .page-offer-item:nth-child(2) .page-offer-item-line {
+      display: none;
+    }
+  
+    .page-show-more {
+      width: 50%;
+    }
 }

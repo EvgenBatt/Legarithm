@@ -10,7 +10,6 @@
   background-repeat: no-repeat;
   background-size: 45rem;
   background-position: top right 25%;
-  max-height: 22.0625rem;
 }
 
 .page-hero h1 {
@@ -238,4 +237,107 @@
 
 .page-step3-obtaining {
   padding-bottom: 3.12rem;
+}
+
+/* OFFER */
+
+.page-offer {
+  padding-bottom: 3.13rem;
+}
+
+.page-offer-list-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-offer-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-bottom: 1.87rem;
+}
+
+.page-offer-item {
+  display: none;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 24.125rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.page-offer-item.visible {
+  display: flex;
+  opacity: 1;
+}
+
+.page-offer-item-img {
+  border-radius: 0.53431rem;
+  box-shadow: 1.71px 1.71px 25.648px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.page-offer-item-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.87rem;
+  margin-bottom: 1rem;
+}
+
+.page-offer-item-content-icon {
+  border-radius: 0.3125rem;
+  border: 2px solid #eceee4;
+}
+
+.page-offer-item-content h3 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-right: auto;
+}
+
+.page-offer-item-text {
+  color: #000;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.page-offer-item .page-offer-item-line {
+  display: inline-block;
+  width: 100%;
+  height: 0.0625rem;
+  background-color: #1b325f;
+  margin-bottom: 1.25rem;
+  opacity: 0.5;
+}
+
+.page-offer-item:nth-child(1) .page-offer-item-line {
+  display: none;
+}
+
+.page-show-more {
+  display: block;
+  width: 100%;
+  height: 2.875rem;
+  border: none;
+  border-radius: 0.625rem;
+  background-color: #284b8f;
+  color: #fff;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0 auto;
 }
